@@ -228,11 +228,11 @@ end
 function checkDownloadStatus()
     if loadingMode == "real" then
         if (filesDownloaded == totalFilesToDownload) then
-            --stopLoadingScreen()
+            stopLoadingScreen()
         end
     elseif loadingMode == "fake" then
         if (getTickCount() - fakeLoadingStartTime >= FAKE_LOADING_DURATION) then
-           --stopLoadingScreen()
+           stopLoadingScreen()
         end
     end
 end
