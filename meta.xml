@@ -1,0 +1,7 @@
+<meta>
+    <info author = 'Patrick' name = 'Loadscreen' />
+    <script src = 'load_C.lua' type = 'client' cache = 'false' />
+    <script src = 'load_S.lua'/>
+    <file src = 'files/idea.png' />
+    <download_priority_group>0</download_priority_group>
+</meta>
